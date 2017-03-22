@@ -21,17 +21,16 @@ li a {
 li a:hover {
     background-color: #111;
 }
+
 body {
 	background-image:url(backgroundg.jpg);
-	
-	
-}
+	}
+
 html {
 	
 	padding-right: 5.2631578947em;
 	    padding-left: 5.2631578947em;
-	
-}
+	}
 
 
 h1{
