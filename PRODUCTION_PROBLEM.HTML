@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<title>Production Problem</title>
+</head>
+
+<body>
+
+<section id = "form">
+<form action="http://bloomingdale.sat.iit.edu/kriedan/lab3formscript.php" method="POST">
+  <fieldset id="myinfo">
+    <legend>My Info</legend>
+    
+    <label>First Name:<input type="text" name="first_name_field"></label><br /><br />
+    <label>Last Name:<input type="text" name="last_name_field"></label><br /><br />
+	<label>Phone Number:<input type="tel" name="phone_field"></label><br /><br />
+	<label>Email Address:<input type="tel" name="email_field"></label><br /><br />
+
+	<p id= "gender">
+	<label>Gender:</label>
+	<label><input type="radio" name="gender_field" checked value="Male"> Male</label>
+	<label><input type="radio" name="gender_field">Female</label>
+	</p>
+	
+	
+	<p id="age">
+	<label>Age: </label>
+	<select name="age_field">
+	<option selected disabled>Select Age</option>
+	<option value="Under 18">Under 18</option>
+	<option value="18-24">18-24</option>
+	<option value="25-34">25-34</option>
+	<option value="35-44">35-44</option>
+	<option value="45-54">45-54</option>
+	<option value="55-64">55-64</option>
+	<option value="65 and Over">65 and over</option>
+	</select>
+	</p>
+	</fieldset>
+<br />
+
+
+<fieldset id="availability">
+<legend>My Availability</legend>
+<input type="checkbox" name="available_field[]" value="Monday"/>Monday<br />
+<input type="checkbox" name="available_field[]" value="Tuesday"/>Tuesday<br />
+<input type="checkbox" name="available_field[]" value="Wednesday"/>Wednesday<br />
+<input type="checkbox" name="available_field[]" value="Thursday"/>Thursday<br />
+<input type="checkbox" name="available_field[]" value="Friday"/>Friday<br />
+<input type="checkbox" name="available_field[]" value="Saturday"/>Saturday<br />
+<input type="checkbox" name="available_field[]" value="Sunday"/>Sunday<br />
+</fieldset>
+<br />
+
+<section id="comments">
+<label>Comments:</label><br />
+<textarea cols="60" rows="20" name="comments_field"  id="commentarea"></textarea>
+</section>
+<br />
+<p>
+<input type="hidden" name="hidden_field" value="ozahid">
+</p>
+<input type="submit" value="Submit">
+<br />
+
+</form>
+</section>
+</body>
+</html>
